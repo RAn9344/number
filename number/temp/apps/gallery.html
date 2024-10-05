@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'apps/index.html' %}
+{% load static %}
+{% block body_block %}
+<html>
+<link rel="stylesheet" type="text/css" href="{%static 'css/style.css' %}">
+<head>
+	<h1 style="color:#3a41fc;text-align: center;">
+		<b>OUR GALLERY</b>
+	</h1>
+	<title>gallery</title>
+</head>
+<body>
+	<h3 style="text-align:center;color: black;">----------Images are upload----------</h3>
+		<img src="{%static '/img/Linux.jpg' %}">
+	<img src="{%static '/img/mysql.png' %}">
+	<img src="{%static '/img/python.png' %}">
+	<img src="{%static '/img/th.jpeg' %}">
+	<img src="{%static '/img/CSS-Logo.png' %}">
+	<img src="{%static '/img/django.png' %}">
+</body>
+{% endblock %}
+</html>

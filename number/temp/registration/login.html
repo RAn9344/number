@@ -1,0 +1,12 @@
+
+{% extends 'apps/index.html' %}
+{% block body_block %}
+	<center>
+	<h2 style="color:red;">LOGIN PAGE</h2>
+	<form method="POST" style="color:blue;">
+		{{f.as_p}}
+		{%csrf_token%}
+		<button type="submit">Login</button>
+	</form>
+	</center>
+{%endblock%}

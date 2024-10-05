@@ -1,0 +1,14 @@
+img{
+	border: solid 5px;
+	border-color: #a6fffe;
+	width: 20%;
+	height: 20%;
+}
+table{
+	border-color: green;
+
+}
+th{
+	color: orange;
+	border-color: black;
+}
